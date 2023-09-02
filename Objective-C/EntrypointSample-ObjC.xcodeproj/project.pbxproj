@@ -15,6 +15,7 @@
 		B9DD90662AA3969D008F131C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DD90642AA3969D008F131C /* LaunchScreen.storyboard */; };
 		B9DD90692AA3969D008F131C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DD90682AA3969D008F131C /* main.m */; };
 		B9DD90732AA3969D008F131C /* EntrypointSample_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DD90722AA3969D008F131C /* EntrypointSample_ObjCTests.m */; };
+		B9DD91012AA39D27008F131C /* MockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DD91002AA39D27008F131C /* MockAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		B9DD90682AA3969D008F131C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9DD906E2AA3969D008F131C /* EntrypointSample-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EntrypointSample-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DD90722AA3969D008F131C /* EntrypointSample_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntrypointSample_ObjCTests.m; sourceTree = "<group>"; };
+		B9DD90FF2AA39D27008F131C /* MockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockAppDelegate.h; sourceTree = "<group>"; };
+		B9DD91002AA39D27008F131C /* MockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				B9DD90722AA3969D008F131C /* EntrypointSample_ObjCTests.m */,
+				B9DD90FF2AA39D27008F131C /* MockAppDelegate.h */,
+				B9DD91002AA39D27008F131C /* MockAppDelegate.m */,
 			);
 			path = "EntrypointSample-ObjCTests";
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DD91012AA39D27008F131C /* MockAppDelegate.m in Sources */,
 				B9DD90732AA3969D008F131C /* EntrypointSample_ObjCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,7 +379,6 @@
 				INFOPLIST_FILE = "EntrypointSample-ObjC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -400,7 +405,6 @@
 				INFOPLIST_FILE = "EntrypointSample-ObjC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
