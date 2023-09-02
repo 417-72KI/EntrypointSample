@@ -11,7 +11,14 @@ final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print("ViewController loaded")
+        print("ViewController loaded", Date())
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+        Thread.sleep(forTimeInterval: 5)
+        print("Slept for 5 sec.", Date())
     }
 }
 

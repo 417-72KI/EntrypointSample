@@ -16,8 +16,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NSLog(@"ViewController loaded");
+    NSLog(@"ViewController loaded %@", [NSDate date]);
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+
+    [NSThread sleepForTimeInterval:5];
+
+    NSLog(@"Slept for 5 sec. %@", [NSDate date]);
+}
 
 @end
