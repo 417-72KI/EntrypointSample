@@ -12,6 +12,7 @@
 		B9DD90D82AA39849008F131C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DD90D72AA39849008F131C /* Assets.xcassets */; };
 		B9DD90DB2AA39849008F131C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DD90DA2AA39849008F131C /* Preview Assets.xcassets */; };
 		B9DD90E52AA39849008F131C /* EntrypointSample_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD90E42AA39849008F131C /* EntrypointSample_SwiftUITests.swift */; };
+		B9DD91052AA3A55C008F131C /* MockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD91042AA3A55C008F131C /* MockApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		B9DD90DA2AA39849008F131C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B9DD90E02AA39849008F131C /* EntrypointSample-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EntrypointSample-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DD90E42AA39849008F131C /* EntrypointSample_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrypointSample_SwiftUITests.swift; sourceTree = "<group>"; };
+		B9DD91042AA3A55C008F131C /* MockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		B9DD90E32AA39849008F131C /* EntrypointSample-SwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B9DD91042AA3A55C008F131C /* MockApp.swift */,
 				B9DD90E42AA39849008F131C /* EntrypointSample_SwiftUITests.swift */,
 			);
 			path = "EntrypointSample-SwiftUITests";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9DD90E52AA39849008F131C /* EntrypointSample_SwiftUITests.swift in Sources */,
+				B9DD91052AA3A55C008F131C /* MockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
