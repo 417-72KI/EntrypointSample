@@ -15,19 +15,10 @@
 		B9DD90662AA3969D008F131C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DD90642AA3969D008F131C /* LaunchScreen.storyboard */; };
 		B9DD90692AA3969D008F131C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DD90682AA3969D008F131C /* main.m */; };
 		B9DD90732AA3969D008F131C /* EntrypointSample_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DD90722AA3969D008F131C /* EntrypointSample_ObjCTests.m */; };
-		B9DD907D2AA3969D008F131C /* EntrypointSample_ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DD907C2AA3969D008F131C /* EntrypointSample_ObjCUITests.m */; };
-		B9DD907F2AA3969D008F131C /* EntrypointSample_ObjCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DD907E2AA3969D008F131C /* EntrypointSample_ObjCUITestsLaunchTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		B9DD906F2AA3969D008F131C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B9DD904B2AA3969C008F131C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9DD90522AA3969C008F131C;
-			remoteInfo = "EntrypointSample-ObjC";
-		};
-		B9DD90792AA3969D008F131C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B9DD904B2AA3969C008F131C /* Project object */;
 			proxyType = 1;
@@ -51,9 +42,6 @@
 		B9DD90682AA3969D008F131C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9DD906E2AA3969D008F131C /* EntrypointSample-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EntrypointSample-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DD90722AA3969D008F131C /* EntrypointSample_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntrypointSample_ObjCTests.m; sourceTree = "<group>"; };
-		B9DD90782AA3969D008F131C /* EntrypointSample-ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EntrypointSample-ObjCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9DD907C2AA3969D008F131C /* EntrypointSample_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntrypointSample_ObjCUITests.m; sourceTree = "<group>"; };
-		B9DD907E2AA3969D008F131C /* EntrypointSample_ObjCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntrypointSample_ObjCUITestsLaunchTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +59,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9DD90752AA3969D008F131C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,7 +67,6 @@
 			children = (
 				B9DD90552AA3969C008F131C /* EntrypointSample-ObjC */,
 				B9DD90712AA3969D008F131C /* EntrypointSample-ObjCTests */,
-				B9DD907B2AA3969D008F131C /* EntrypointSample-ObjCUITests */,
 				B9DD90542AA3969C008F131C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +76,6 @@
 			children = (
 				B9DD90532AA3969C008F131C /* EntrypointSample-ObjC.app */,
 				B9DD906E2AA3969D008F131C /* EntrypointSample-ObjCTests.xctest */,
-				B9DD90782AA3969D008F131C /* EntrypointSample-ObjCUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,15 +104,6 @@
 				B9DD90722AA3969D008F131C /* EntrypointSample_ObjCTests.m */,
 			);
 			path = "EntrypointSample-ObjCTests";
-			sourceTree = "<group>";
-		};
-		B9DD907B2AA3969D008F131C /* EntrypointSample-ObjCUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B9DD907C2AA3969D008F131C /* EntrypointSample_ObjCUITests.m */,
-				B9DD907E2AA3969D008F131C /* EntrypointSample_ObjCUITestsLaunchTests.m */,
-			);
-			path = "EntrypointSample-ObjCUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,24 +144,6 @@
 			productReference = B9DD906E2AA3969D008F131C /* EntrypointSample-ObjCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B9DD90772AA3969D008F131C /* EntrypointSample-ObjCUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B9DD90882AA3969E008F131C /* Build configuration list for PBXNativeTarget "EntrypointSample-ObjCUITests" */;
-			buildPhases = (
-				B9DD90742AA3969D008F131C /* Sources */,
-				B9DD90752AA3969D008F131C /* Frameworks */,
-				B9DD90762AA3969D008F131C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9DD907A2AA3969D008F131C /* PBXTargetDependency */,
-			);
-			name = "EntrypointSample-ObjCUITests";
-			productName = "EntrypointSample-ObjCUITests";
-			productReference = B9DD90782AA3969D008F131C /* EntrypointSample-ObjCUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,10 +157,6 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					B9DD906D2AA3969D008F131C = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = B9DD90522AA3969C008F131C;
-					};
-					B9DD90772AA3969D008F131C = {
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = B9DD90522AA3969C008F131C;
 					};
@@ -229,7 +177,6 @@
 			targets = (
 				B9DD90522AA3969C008F131C /* EntrypointSample-ObjC */,
 				B9DD906D2AA3969D008F131C /* EntrypointSample-ObjCTests */,
-				B9DD90772AA3969D008F131C /* EntrypointSample-ObjCUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,13 +193,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B9DD906C2AA3969D008F131C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9DD90762AA3969D008F131C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,15 +221,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9DD90742AA3969D008F131C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9DD907F2AA3969D008F131C /* EntrypointSample_ObjCUITestsLaunchTests.m in Sources */,
-				B9DD907D2AA3969D008F131C /* EntrypointSample_ObjCUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -297,11 +228,6 @@
 			isa = PBXTargetDependency;
 			target = B9DD90522AA3969C008F131C /* EntrypointSample-ObjC */;
 			targetProxy = B9DD906F2AA3969D008F131C /* PBXContainerItemProxy */;
-		};
-		B9DD907A2AA3969D008F131C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B9DD90522AA3969C008F131C /* EntrypointSample-ObjC */;
-			targetProxy = B9DD90792AA3969D008F131C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -525,38 +451,6 @@
 			};
 			name = Release;
 		};
-		B9DD90892AA3969E008F131C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QQ9QE2K9VN;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.room417.EntrypointSample-ObjCUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "EntrypointSample-ObjC";
-			};
-			name = Debug;
-		};
-		B9DD908A2AA3969E008F131C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QQ9QE2K9VN;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.room417.EntrypointSample-ObjCUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "EntrypointSample-ObjC";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -583,15 +477,6 @@
 			buildConfigurations = (
 				B9DD90862AA3969E008F131C /* Debug */,
 				B9DD90872AA3969E008F131C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B9DD90882AA3969E008F131C /* Build configuration list for PBXNativeTarget "EntrypointSample-ObjCUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9DD90892AA3969E008F131C /* Debug */,
-				B9DD908A2AA3969E008F131C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
