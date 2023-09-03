@@ -8,17 +8,21 @@
 #import <XCTest/XCTest.h>
 
 @interface EntrypointSample_ObjCTests : XCTestCase
-
+@property(nonatomic, strong) NSDate *startDate;
 @end
 
 @implementation EntrypointSample_ObjCTests
 
 - (void)setUp {
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    self.startDate = [NSDate date];
+    NSLog(@"%@ start %@", self.name, self.startDate);
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    NSDate *endDate = [NSDate date];
+    NSLog(@"%@ finish %@", self.name, endDate);
+    NSLog(@"execution time: %.2f", [endDate timeIntervalSinceDate:self.startDate]);
+
 }
 
 - (void)testExample {

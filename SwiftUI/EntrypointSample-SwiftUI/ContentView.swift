@@ -17,7 +17,10 @@ struct ContentView: View {
         }
         .padding()
         .onAppear {
-            print("View appeared")
+            print("View appeared", Date())
+
+            Thread.sleep(forTimeInterval: 5)
+            print("Slept for 5 sec.")
         }
     }
 }

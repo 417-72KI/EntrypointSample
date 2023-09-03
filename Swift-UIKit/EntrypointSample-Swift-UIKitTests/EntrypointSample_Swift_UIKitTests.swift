@@ -9,13 +9,17 @@ import XCTest
 @testable import EntrypointSample_Swift_UIKit
 
 final class EntrypointSample_Swift_UIKitTests: XCTestCase {
+    private lazy var start: Date = { fatalError() }()
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        start = Date()
+        print("\(name) start", start)
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        let end = Date()
+        print("\(name) finish", end)
+        print("execution time: \(end.timeIntervalSince(start))")
     }
 
     func testExample() throws {
