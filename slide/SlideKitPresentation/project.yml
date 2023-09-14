@@ -1,0 +1,19 @@
+name: SlideKitPresentation
+packages:
+  SlideKit:
+    url: https://github.com/mtj0928/SlideKit
+    from: 0.3.0
+targets:
+  SlideKitPresentation:
+    type: application
+    settings:
+      base:
+        INFOPLIST_FILE: SlideKitPresentation/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.github.mtj0928.SlideGen.SlideKitPresentation
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+    platform: macOS
+    deploymentTarget: "12.0"
+    sources: [SlideKitPresentation]
+    dependencies:
+      - package: SlideKit
