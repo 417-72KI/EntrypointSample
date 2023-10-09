@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@main
 struct EntrypointSample_SwiftUIApp: App {
     init() {
         print("This is App main.")

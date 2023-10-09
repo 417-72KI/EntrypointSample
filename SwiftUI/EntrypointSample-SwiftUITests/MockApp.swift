@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-@main
-struct MockApp: App {
-    init() {
+@objc(MockApp)
+final class MockApp: NSObject, App {
+    override init() {
+        super.init()
         print("This is MockApp.")
     }
 
