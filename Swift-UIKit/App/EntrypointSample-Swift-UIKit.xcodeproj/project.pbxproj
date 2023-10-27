@@ -3,40 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9DD90982AA39823008F131C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD90972AA39823008F131C /* AppDelegate.swift */; };
-		B9DD909A2AA39823008F131C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD90992AA39823008F131C /* SceneDelegate.swift */; };
-		B9DD909C2AA39823008F131C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD909B2AA39823008F131C /* ViewController.swift */; };
-		B9DD909F2AA39823008F131C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DD909D2AA39823008F131C /* Main.storyboard */; };
-		B9DD90A12AA39824008F131C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DD90A02AA39824008F131C /* Assets.xcassets */; };
+		B907CA502AE6D0D30033DCDB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B907CA4F2AE6CFE40033DCDB /* main.swift */; };
+		B94D04C52AE6CC160087CA98 /* EntrypointSample-Swift-UIKit in Frameworks */ = {isa = PBXBuildFile; productRef = B94D04C42AE6CC160087CA98 /* EntrypointSample-Swift-UIKit */; };
 		B9DD90A42AA39824008F131C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DD90A22AA39824008F131C /* LaunchScreen.storyboard */; };
-		B9DD90AF2AA39824008F131C /* EntrypointSample_Swift_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD90AE2AA39824008F131C /* EntrypointSample_Swift_UIKitTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B9DD90AB2AA39824008F131C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B9DD908C2AA39823008F131C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9DD90932AA39823008F131C;
-			remoteInfo = "EntrypointSample-Swift-UIKit";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		B9DD90942AA39823008F131C /* EntrypointSample-Swift-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EntrypointSample-Swift-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9DD90972AA39823008F131C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9DD90992AA39823008F131C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B9DD909B2AA39823008F131C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B9DD909E2AA39823008F131C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B9DD90A02AA39824008F131C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B907CA4F2AE6CFE40033DCDB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B9DD90942AA39823008F131C /* EntrypointSample-Swift-UIKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EntrypointSample-Swift-UIKitApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DD90A32AA39824008F131C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9DD90A52AA39824008F131C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9DD90AA2AA39824008F131C /* EntrypointSample-Swift-UIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EntrypointSample-Swift-UIKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9DD90AE2AA39824008F131C /* EntrypointSample_Swift_UIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrypointSample_Swift_UIKitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,13 +24,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9DD90A72AA39824008F131C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B94D04C52AE6CC160087CA98 /* EntrypointSample-Swift-UIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +35,6 @@
 			isa = PBXGroup;
 			children = (
 				B9DD90962AA39823008F131C /* EntrypointSample-Swift-UIKit */,
-				B9DD90AD2AA39824008F131C /* EntrypointSample-Swift-UIKitTests */,
 				B9DD90952AA39823008F131C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,8 +42,7 @@
 		B9DD90952AA39823008F131C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9DD90942AA39823008F131C /* EntrypointSample-Swift-UIKit.app */,
-				B9DD90AA2AA39824008F131C /* EntrypointSample-Swift-UIKitTests.xctest */,
+				B9DD90942AA39823008F131C /* EntrypointSample-Swift-UIKitApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,31 +50,19 @@
 		B9DD90962AA39823008F131C /* EntrypointSample-Swift-UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				B9DD90972AA39823008F131C /* AppDelegate.swift */,
-				B9DD90992AA39823008F131C /* SceneDelegate.swift */,
-				B9DD909B2AA39823008F131C /* ViewController.swift */,
-				B9DD909D2AA39823008F131C /* Main.storyboard */,
-				B9DD90A02AA39824008F131C /* Assets.xcassets */,
 				B9DD90A22AA39824008F131C /* LaunchScreen.storyboard */,
 				B9DD90A52AA39824008F131C /* Info.plist */,
+				B907CA4F2AE6CFE40033DCDB /* main.swift */,
 			);
 			path = "EntrypointSample-Swift-UIKit";
-			sourceTree = "<group>";
-		};
-		B9DD90AD2AA39824008F131C /* EntrypointSample-Swift-UIKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				B9DD90AE2AA39824008F131C /* EntrypointSample_Swift_UIKitTests.swift */,
-			);
-			path = "EntrypointSample-Swift-UIKitTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9DD90932AA39823008F131C /* EntrypointSample-Swift-UIKit */ = {
+		B9DD90932AA39823008F131C /* EntrypointSample-Swift-UIKitApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9DD90BE2AA39824008F131C /* Build configuration list for PBXNativeTarget "EntrypointSample-Swift-UIKit" */;
+			buildConfigurationList = B9DD90BE2AA39824008F131C /* Build configuration list for PBXNativeTarget "EntrypointSample-Swift-UIKitApp" */;
 			buildPhases = (
 				B9DD90902AA39823008F131C /* Sources */,
 				B9DD90912AA39823008F131C /* Frameworks */,
@@ -112,28 +72,13 @@
 			);
 			dependencies = (
 			);
-			name = "EntrypointSample-Swift-UIKit";
+			name = "EntrypointSample-Swift-UIKitApp";
+			packageProductDependencies = (
+				B94D04C42AE6CC160087CA98 /* EntrypointSample-Swift-UIKit */,
+			);
 			productName = "EntrypointSample-Swift-UIKit";
-			productReference = B9DD90942AA39823008F131C /* EntrypointSample-Swift-UIKit.app */;
+			productReference = B9DD90942AA39823008F131C /* EntrypointSample-Swift-UIKitApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B9DD90A92AA39824008F131C /* EntrypointSample-Swift-UIKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B9DD90C12AA39824008F131C /* Build configuration list for PBXNativeTarget "EntrypointSample-Swift-UIKitTests" */;
-			buildPhases = (
-				B9DD90A62AA39824008F131C /* Sources */,
-				B9DD90A72AA39824008F131C /* Frameworks */,
-				B9DD90A82AA39824008F131C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9DD90AC2AA39824008F131C /* PBXTargetDependency */,
-			);
-			name = "EntrypointSample-Swift-UIKitTests";
-			productName = "EntrypointSample-Swift-UIKitTests";
-			productReference = B9DD90AA2AA39824008F131C /* EntrypointSample-Swift-UIKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -148,10 +93,6 @@
 					B9DD90932AA39823008F131C = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					B9DD90A92AA39824008F131C = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = B9DD90932AA39823008F131C;
-					};
 				};
 			};
 			buildConfigurationList = B9DD908F2AA39823008F131C /* Build configuration list for PBXProject "EntrypointSample-Swift-UIKit" */;
@@ -163,12 +104,14 @@
 				Base,
 			);
 			mainGroup = B9DD908B2AA39823008F131C;
+			packageReferences = (
+				B94D04C32AE6CC160087CA98 /* XCLocalSwiftPackageReference ".." */,
+			);
 			productRefGroup = B9DD90952AA39823008F131C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9DD90932AA39823008F131C /* EntrypointSample-Swift-UIKit */,
-				B9DD90A92AA39824008F131C /* EntrypointSample-Swift-UIKitTests */,
+				B9DD90932AA39823008F131C /* EntrypointSample-Swift-UIKitApp */,
 			);
 		};
 /* End PBXProject section */
@@ -179,15 +122,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9DD90A42AA39824008F131C /* LaunchScreen.storyboard in Resources */,
-				B9DD90A12AA39824008F131C /* Assets.xcassets in Resources */,
-				B9DD909F2AA39823008F131C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9DD90A82AA39824008F131C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,39 +132,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9DD909C2AA39823008F131C /* ViewController.swift in Sources */,
-				B9DD90982AA39823008F131C /* AppDelegate.swift in Sources */,
-				B9DD909A2AA39823008F131C /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9DD90A62AA39824008F131C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9DD90AF2AA39824008F131C /* EntrypointSample_Swift_UIKitTests.swift in Sources */,
+				B907CA502AE6D0D30033DCDB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B9DD90AC2AA39824008F131C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B9DD90932AA39823008F131C /* EntrypointSample-Swift-UIKit */;
-			targetProxy = B9DD90AB2AA39824008F131C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		B9DD909D2AA39823008F131C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9DD909E2AA39823008F131C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B9DD90A22AA39824008F131C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,9 +274,9 @@
 				DEVELOPMENT_TEAM = QQ9QE2K9VN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "EntrypointSample-Swift-UIKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -394,9 +302,9 @@
 				DEVELOPMENT_TEAM = QQ9QE2K9VN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "EntrypointSample-Swift-UIKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -412,46 +320,6 @@
 			};
 			name = Release;
 		};
-		B9DD90C22AA39824008F131C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QQ9QE2K9VN;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.room417.EntrypointSample-Swift-UIKitTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EntrypointSample-Swift-UIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EntrypointSample-Swift-UIKit";
-			};
-			name = Debug;
-		};
-		B9DD90C32AA39824008F131C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QQ9QE2K9VN;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.room417.EntrypointSample-Swift-UIKitTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EntrypointSample-Swift-UIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EntrypointSample-Swift-UIKit";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -464,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9DD90BE2AA39824008F131C /* Build configuration list for PBXNativeTarget "EntrypointSample-Swift-UIKit" */ = {
+		B9DD90BE2AA39824008F131C /* Build configuration list for PBXNativeTarget "EntrypointSample-Swift-UIKitApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9DD90BF2AA39824008F131C /* Debug */,
@@ -473,16 +341,21 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9DD90C12AA39824008F131C /* Build configuration list for PBXNativeTarget "EntrypointSample-Swift-UIKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9DD90C22AA39824008F131C /* Debug */,
-				B9DD90C32AA39824008F131C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B94D04C32AE6CC160087CA98 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B94D04C42AE6CC160087CA98 /* EntrypointSample-Swift-UIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "EntrypointSample-Swift-UIKit";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B9DD908C2AA39823008F131C /* Project object */;
 }
