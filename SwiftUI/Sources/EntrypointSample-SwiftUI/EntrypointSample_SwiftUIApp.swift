@@ -7,13 +7,12 @@
 
 import SwiftUI
 
-@main
-struct EntrypointSample_SwiftUIApp: App {
-    init() {
+public struct EntrypointSample_SwiftUIApp: App {
+    public init() {
         print("This is App main.")
     }
 
-    var body: some Scene {
+    public var body: some Scene {
         WindowGroup {
             ContentView()
         }

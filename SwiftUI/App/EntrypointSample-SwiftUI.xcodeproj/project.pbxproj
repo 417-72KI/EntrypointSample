@@ -3,35 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9DD90D42AA39849008F131C /* EntrypointSample_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD90D32AA39849008F131C /* EntrypointSample_SwiftUIApp.swift */; };
-		B9DD90D62AA39849008F131C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD90D52AA39849008F131C /* ContentView.swift */; };
-		B9DD90D82AA39849008F131C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DD90D72AA39849008F131C /* Assets.xcassets */; };
-		B9DD90DB2AA39849008F131C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DD90DA2AA39849008F131C /* Preview Assets.xcassets */; };
-		B9DD90E52AA39849008F131C /* EntrypointSample_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD90E42AA39849008F131C /* EntrypointSample_SwiftUITests.swift */; };
+		B9D725B92AE58286004EABF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D725B82AE58286004EABF1 /* main.swift */; };
+		B9D725BC2AE5829A004EABF1 /* EntrypointSample-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B9D725BB2AE5829A004EABF1 /* EntrypointSample-SwiftUI */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B9DD90E12AA39849008F131C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B9DD90C82AA39849008F131C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9DD90CF2AA39849008F131C;
-			remoteInfo = "EntrypointSample-SwiftUI";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		B9DD90D02AA39849008F131C /* EntrypointSample-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EntrypointSample-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9DD90D32AA39849008F131C /* EntrypointSample_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrypointSample_SwiftUIApp.swift; sourceTree = "<group>"; };
-		B9DD90D52AA39849008F131C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B9DD90D72AA39849008F131C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B9DD90DA2AA39849008F131C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B9DD90E02AA39849008F131C /* EntrypointSample-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EntrypointSample-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9DD90E42AA39849008F131C /* EntrypointSample_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrypointSample_SwiftUITests.swift; sourceTree = "<group>"; };
+		B9D725B82AE58286004EABF1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B9DD90D02AA39849008F131C /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,13 +21,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9DD90DD2AA39849008F131C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B9D725BC2AE5829A004EABF1 /* EntrypointSample-SwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +31,7 @@
 		B9DD90C72AA39849008F131C = {
 			isa = PBXGroup;
 			children = (
-				B9DD90D22AA39849008F131C /* EntrypointSample-SwiftUI */,
-				B9DD90E32AA39849008F131C /* EntrypointSample-SwiftUITests */,
+				B9DD90D22AA39849008F131C /* App */,
 				B9DD90D12AA39849008F131C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,45 +39,25 @@
 		B9DD90D12AA39849008F131C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9DD90D02AA39849008F131C /* EntrypointSample-SwiftUI.app */,
-				B9DD90E02AA39849008F131C /* EntrypointSample-SwiftUITests.xctest */,
+				B9DD90D02AA39849008F131C /* App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B9DD90D22AA39849008F131C /* EntrypointSample-SwiftUI */ = {
+		B9DD90D22AA39849008F131C /* App */ = {
 			isa = PBXGroup;
 			children = (
-				B9DD90D32AA39849008F131C /* EntrypointSample_SwiftUIApp.swift */,
-				B9DD90D52AA39849008F131C /* ContentView.swift */,
-				B9DD90D72AA39849008F131C /* Assets.xcassets */,
-				B9DD90D92AA39849008F131C /* Preview Content */,
+				B9D725B82AE58286004EABF1 /* main.swift */,
 			);
-			path = "EntrypointSample-SwiftUI";
-			sourceTree = "<group>";
-		};
-		B9DD90D92AA39849008F131C /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				B9DD90DA2AA39849008F131C /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B9DD90E32AA39849008F131C /* EntrypointSample-SwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B9DD90E42AA39849008F131C /* EntrypointSample_SwiftUITests.swift */,
-			);
-			path = "EntrypointSample-SwiftUITests";
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9DD90CF2AA39849008F131C /* EntrypointSample-SwiftUI */ = {
+		B9DD90CF2AA39849008F131C /* App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9DD90F42AA3984A008F131C /* Build configuration list for PBXNativeTarget "EntrypointSample-SwiftUI" */;
+			buildConfigurationList = B9DD90F42AA3984A008F131C /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
 				B9DD90CC2AA39849008F131C /* Sources */,
 				B9DD90CD2AA39849008F131C /* Frameworks */,
@@ -112,28 +67,13 @@
 			);
 			dependencies = (
 			);
-			name = "EntrypointSample-SwiftUI";
+			name = App;
+			packageProductDependencies = (
+				B9D725BB2AE5829A004EABF1 /* EntrypointSample-SwiftUI */,
+			);
 			productName = "EntrypointSample-SwiftUI";
-			productReference = B9DD90D02AA39849008F131C /* EntrypointSample-SwiftUI.app */;
+			productReference = B9DD90D02AA39849008F131C /* App.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B9DD90DF2AA39849008F131C /* EntrypointSample-SwiftUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B9DD90F72AA3984A008F131C /* Build configuration list for PBXNativeTarget "EntrypointSample-SwiftUITests" */;
-			buildPhases = (
-				B9DD90DC2AA39849008F131C /* Sources */,
-				B9DD90DD2AA39849008F131C /* Frameworks */,
-				B9DD90DE2AA39849008F131C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9DD90E22AA39849008F131C /* PBXTargetDependency */,
-			);
-			name = "EntrypointSample-SwiftUITests";
-			productName = "EntrypointSample-SwiftUITests";
-			productReference = B9DD90E02AA39849008F131C /* EntrypointSample-SwiftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -148,10 +88,6 @@
 					B9DD90CF2AA39849008F131C = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					B9DD90DF2AA39849008F131C = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = B9DD90CF2AA39849008F131C;
-					};
 				};
 			};
 			buildConfigurationList = B9DD90CB2AA39849008F131C /* Build configuration list for PBXProject "EntrypointSample-SwiftUI" */;
@@ -163,27 +99,20 @@
 				Base,
 			);
 			mainGroup = B9DD90C72AA39849008F131C;
+			packageReferences = (
+				B9D725BA2AE5829A004EABF1 /* XCLocalSwiftPackageReference ".." */,
+			);
 			productRefGroup = B9DD90D12AA39849008F131C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9DD90CF2AA39849008F131C /* EntrypointSample-SwiftUI */,
-				B9DD90DF2AA39849008F131C /* EntrypointSample-SwiftUITests */,
+				B9DD90CF2AA39849008F131C /* App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B9DD90CE2AA39849008F131C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9DD90DB2AA39849008F131C /* Preview Assets.xcassets in Resources */,
-				B9DD90D82AA39849008F131C /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9DD90DE2AA39849008F131C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,28 +126,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9DD90D62AA39849008F131C /* ContentView.swift in Sources */,
-				B9DD90D42AA39849008F131C /* EntrypointSample_SwiftUIApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9DD90DC2AA39849008F131C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9DD90E52AA39849008F131C /* EntrypointSample_SwiftUITests.swift in Sources */,
+				B9D725B92AE58286004EABF1 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B9DD90E22AA39849008F131C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B9DD90CF2AA39849008F131C /* EntrypointSample-SwiftUI */;
-			targetProxy = B9DD90E12AA39849008F131C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B9DD90F22AA3984A008F131C /* Debug */ = {
@@ -342,7 +254,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EntrypointSample-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = QQ9QE2K9VN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -371,7 +282,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EntrypointSample-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = QQ9QE2K9VN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -393,46 +303,6 @@
 			};
 			name = Release;
 		};
-		B9DD90F82AA3984A008F131C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QQ9QE2K9VN;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.room417.EntrypointSample-SwiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EntrypointSample-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EntrypointSample-SwiftUI";
-			};
-			name = Debug;
-		};
-		B9DD90F92AA3984A008F131C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QQ9QE2K9VN;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.room417.EntrypointSample-SwiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EntrypointSample-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EntrypointSample-SwiftUI";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9DD90F42AA3984A008F131C /* Build configuration list for PBXNativeTarget "EntrypointSample-SwiftUI" */ = {
+		B9DD90F42AA3984A008F131C /* Build configuration list for PBXNativeTarget "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9DD90F52AA3984A008F131C /* Debug */,
@@ -454,16 +324,21 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9DD90F72AA3984A008F131C /* Build configuration list for PBXNativeTarget "EntrypointSample-SwiftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9DD90F82AA3984A008F131C /* Debug */,
-				B9DD90F92AA3984A008F131C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B9D725BA2AE5829A004EABF1 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B9D725BB2AE5829A004EABF1 /* EntrypointSample-SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "EntrypointSample-SwiftUI";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B9DD90C82AA39849008F131C /* Project object */;
 }
